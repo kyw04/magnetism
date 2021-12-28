@@ -1,0 +1,1820 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.23f1 (c5d91304a876) revision 12966163'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1415; Version 2009; 64bit' Language: 'ko' Physical Memory: 16331 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/82104/Documents/GitHub/magnetism
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51725
+Successfully changed project path to: C:/Users/82104/Documents/GitHub/magnetism
+C:/Users/82104/Documents/GitHub/magnetism
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 47.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.23f1 (c5d91304a876)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/82104/Documents/GitHub/magnetism/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c81)
+    Vendor:   
+    VRAM:     1977 MB
+    Driver:   30.0.14.9676
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004962 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 44.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.803 seconds
+Domain Reload Profiling:
+	ReloadAssembly (803ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (608ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (219ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (20ms)
+				ProcessInitializeOnLoadAttributes (110ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008094 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.558 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1560ms)
+		BeginReloadAssembly (289ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1162ms)
+			LoadAssemblies (153ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (396ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (436ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (287ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.7 MB.
+System memory in use after: 67.8 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1940.
+Total: 3.070600 ms (FindLiveObjects: 0.155200 ms CreateObjectMapping: 0.059900 ms MarkObjects: 2.778700 ms  DeleteObjects: 0.075000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23d70c604272cc3656d280c8fccd11f') in 0.026084 seconds 
+  Import took 0.029108 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007796 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.519 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1520ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1281ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (485ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (379ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (243ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1505 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1942.
+Total: 3.190900 ms (FindLiveObjects: 0.156800 ms CreateObjectMapping: 0.059700 ms MarkObjects: 2.945000 ms  DeleteObjects: 0.027700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 88.538224 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11454cbba485dbc324ef193d28b97fe3') in 0.046174 seconds 
+  Import took 0.049066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 228.143046 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adcde313abd6c93048cbe9c93c69b5f6') in 0.006071 seconds 
+  Import took 0.009384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 446.581963 seconds.
+  path: Assets/Scenes/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2a5ec5fd5bb52cbf82ee5ed05824fb') in 0.103919 seconds 
+  Import took 0.107893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.888840 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951898bc5d5d1dc85159f2ecbd9c0be7') in 0.014039 seconds 
+  Import took 0.017935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.597110 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba7cc9481864be2e5126afda6f27315') in 0.013403 seconds 
+  Import took 0.016546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.466702 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066e8aac0d33a180fca3f808a6e48db3') in 0.013617 seconds 
+  Import took 0.016948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.866306 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1a8bdf2c0101438a523606aac2f2fa') in 0.011533 seconds 
+  Import took 0.014967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.646465 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a438a3117565452bb928815a1bcede49') in 0.013509 seconds 
+  Import took 0.017428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.204177 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ccac0023618afceb2b23a8a4d4212b') in 0.010968 seconds 
+  Import took 0.014214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.534608 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d46398115494d83a81333c9966ff256') in 0.011039 seconds 
+  Import took 0.014262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.511413 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db2375e426e6f6966d7d98de012ebae') in 0.013570 seconds 
+  Import took 0.017251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.573306 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f900c67fa693d7753e2dfc8c8afb2b') in 0.013159 seconds 
+  Import took 0.017633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.939211 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f92b8d2f6fd891deb0a48f2e5b98581') in 0.012429 seconds 
+  Import took 0.016509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.639009 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2810f5a1f15995a35af74c40bf378094') in 0.011051 seconds 
+  Import took 0.014722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.623427 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855129309259e5cfa032d6101ba6c42b') in 0.011461 seconds 
+  Import took 0.014871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.751057 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211e30058d6e44978bbbabe3e28e3a69') in 0.012440 seconds 
+  Import took 0.016017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.070861 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf9946fd97623909a567b0cd9b344f6') in 0.011111 seconds 
+  Import took 0.014989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.416076 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3264e61485bf9f336e0fe22b1f2a15') in 0.011836 seconds 
+  Import took 0.015938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.656289 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f728a984982e8d4d38565e3bd4fce7a3') in 0.012984 seconds 
+  Import took 0.016188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.629731 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0ec6672b13e430add03714aaaf2aeb') in 0.012263 seconds 
+  Import took 0.015659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.082519 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d6fb0d54ea4fb724bcfa2e4d7cc471') in 0.012698 seconds 
+  Import took 0.016792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.587564 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b97b0f88a85c57e052555a4c376f123') in 0.011725 seconds 
+  Import took 0.015005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.540014 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0d37626ee3143e66116e84b0b53b1b') in 0.010604 seconds 
+  Import took 0.013882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.633812 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7b41f1db7261122be0f4a50f957690') in 0.012100 seconds 
+  Import took 0.015296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.477161 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ccb8878253fc78f261486f80017f162') in 0.011465 seconds 
+  Import took 0.015217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.806495 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f1aa8ea36fa0c3226a37d9719becf4') in 0.013521 seconds 
+  Import took 0.017226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.420943 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8796f8e29da04d71ad40199b4946164') in 0.011242 seconds 
+  Import took 0.014324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.584206 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d6942f14886152ca3fa9551ed8c282') in 0.013146 seconds 
+  Import took 0.016724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.600032 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794c1e6a41824b2684a8fc9a2570d2a6') in 0.013378 seconds 
+  Import took 0.017442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.777604 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175e92c56ab9b85edb2145af7cb86406') in 0.012358 seconds 
+  Import took 0.015770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.417312 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ede20ccb2e137692053f35d4dd51756') in 0.011458 seconds 
+  Import took 0.014780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.409952 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c019a6687d193cf08335f7b63359a6b2') in 0.014692 seconds 
+  Import took 0.018367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.105190 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c99232e0335a6aeb13c1e5e4e3dcd5') in 0.012982 seconds 
+  Import took 0.016572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.357832 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58bd998e2c5bb1cc4f949dd71f462ee0') in 0.011542 seconds 
+  Import took 0.014911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.856524 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df38cebd2f17cf90dcc260880f4de760') in 0.021409 seconds 
+  Import took 0.027187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.788469 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f235d0d972665280cf753655736df20b') in 0.011486 seconds 
+  Import took 0.014873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.214681 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255fb0c1cc50556c471b424fd3c536d1') in 0.013653 seconds 
+  Import took 0.017503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.798286 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2eb5fad13b829101678de97f174c46') in 0.011583 seconds 
+  Import took 0.015001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.378017 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0268393a6d0f444c70e8e2f7cee7ce8c') in 0.015107 seconds 
+  Import took 0.019368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.415621 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a677ef4f9e866ddc9f24544bed6b553') in 0.011261 seconds 
+  Import took 0.014740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.786611 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1b263e9428f849f4888ce28a7c4da6') in 0.012490 seconds 
+  Import took 0.016071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.077115 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa68e44640fb794d542e156962c57eff') in 0.011190 seconds 
+  Import took 0.014393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.186864 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66736671a4a0dc645edfe39d79a063ae') in 0.013081 seconds 
+  Import took 0.016836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.814323 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb3f41afa26034b2563589b9b3cfea8') in 0.011154 seconds 
+  Import took 0.015061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.790035 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b23f6e85f72dce8ef44c00e9703a1f') in 0.011828 seconds 
+  Import took 0.015853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.470267 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8d37f7d490caa7974c905abb2703bb') in 0.013781 seconds 
+  Import took 0.017245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.642291 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75ae313415983fe50df57100643fbee') in 0.013839 seconds 
+  Import took 0.017373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.090059 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dac8b42d9cb743b3060c3041f496707') in 0.015066 seconds 
+  Import took 0.018896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.222994 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd703331e007e3b2aa486efb197769639') in 0.013568 seconds 
+  Import took 0.018591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.850978 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfb246921072de8821f23bcec961d06') in 0.012703 seconds 
+  Import took 0.015969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.326984 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce1bb7d565319bb52d25028bb2737a5') in 0.011420 seconds 
+  Import took 0.015187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.648682 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c615df2b73610c70cc109dc5ce3ced9b') in 0.011999 seconds 
+  Import took 0.015345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.907359 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f662181c23bff777f8bb145c0f6b5d') in 0.012659 seconds 
+  Import took 0.016119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.047161 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10426075798cc956e7236ec21762635f') in 0.010745 seconds 
+  Import took 0.014123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.060891 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a78e85d51b3b3e3a7344939c05b8b18') in 0.012586 seconds 
+  Import took 0.016401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.223990 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6df04831a2cdb0d622f2cc75913a6f4') in 0.012831 seconds 
+  Import took 0.016461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.757824 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6ed1c6841663bcb632e3cf913e2ec0') in 0.012463 seconds 
+  Import took 0.015992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.123007 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53716a64801420ff46383d841efeb65') in 0.012018 seconds 
+  Import took 0.015781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.853156 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae57dd349d4c73d5eb0f28f901cd7990') in 0.010940 seconds 
+  Import took 0.014336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.364177 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19455ff84757fc21a25bb69bafb3077b') in 0.011168 seconds 
+  Import took 0.014983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.699222 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a321375763d6adba0a1cb99c03f784e') in 0.011178 seconds 
+  Import took 0.014319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.374472 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1acf16ba0d077d624cdd959482ad8fc') in 0.010949 seconds 
+  Import took 0.015574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.446609 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c6f80889ebe6258d7d8af8e08a19f9') in 0.015784 seconds 
+  Import took 0.019133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.399976 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143d15e7d329ce6493774307966f5461') in 0.011837 seconds 
+  Import took 0.015188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.260332 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac5e7539f2c975d15163de8e84e9bd5') in 0.013199 seconds 
+  Import took 0.016691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.815916 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54465d452f849d096760fb02614d39e') in 0.012744 seconds 
+  Import took 0.016469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.840521 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c689767d8acda184703424c12f316a2') in 0.015343 seconds 
+  Import took 0.019092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.049436 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd9342971863bd75eaf344cec43703c') in 0.012238 seconds 
+  Import took 0.015533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.548181 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103e63c49f3eceec9f41a60e65dccf66') in 0.011749 seconds 
+  Import took 0.015352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.115543 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b35ed7b8a37296965284d65977a6b9f') in 0.016288 seconds 
+  Import took 0.019888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.445346 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124dee4b41a36cf4ff4d50e6ca7648e2') in 0.015659 seconds 
+  Import took 0.019415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.500585 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1788b25a4d09586e8557b72ff715f42d') in 0.012917 seconds 
+  Import took 0.016390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.562756 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceedc9b8d9c989c0d244015a808ecf1c') in 0.014698 seconds 
+  Import took 0.018970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.802232 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db4f39c7abfcca6174d96d74fb0fb75') in 0.016227 seconds 
+  Import took 0.020323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.264278 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c28e4f6bb70c8bb8be99334e09c03a') in 0.014306 seconds 
+  Import took 0.017857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.620860 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0ee8ed9a1a5dd8b7a3a9fe8f29ac8e') in 0.026295 seconds 
+  Import took 0.033511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.004321 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622efd9ed3c98cd1b508c147fdde2cab') in 0.015057 seconds 
+  Import took 0.018552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.221480 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8959ba529b46e411405e26bbcd53f381') in 0.011732 seconds 
+  Import took 0.015929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.195250 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1c9488a671e369f9c680063d650ab9') in 0.011586 seconds 
+  Import took 0.015071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.868666 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28bd8fbbbf4d2c82f55ca086217777d5') in 0.010667 seconds 
+  Import took 0.014234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.930844 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2692cfd83c8b7c610af4b71261eb5a8') in 0.011360 seconds 
+  Import took 0.014672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.860100 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a638221c7cfa461a290794749c8e4d') in 0.011016 seconds 
+  Import took 0.014632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.469061 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c605a2f29400d66119208c88b5a5bd') in 0.011255 seconds 
+  Import took 0.014369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.654297 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6adc40863daaf9d880e7fbbf8bc5f42') in 0.013290 seconds 
+  Import took 0.017599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.767823 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8606e41b977ef941e0b52681d2c43e') in 0.013943 seconds 
+  Import took 0.017278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.212419 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109fd0db839ef873109825910b9a4ae7') in 0.011137 seconds 
+  Import took 0.014527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.390149 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e748d8feef71ef77dc67d211cd366f05') in 0.012377 seconds 
+  Import took 0.016175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.941157 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1107643127e9a1fd072f9a6847b85e62') in 0.011205 seconds 
+  Import took 0.015069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.462578 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac0c56271bc57f0f10887f0840e27a0') in 0.010982 seconds 
+  Import took 0.014191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.399759 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef968381a41680f834942e8caf70603') in 0.012613 seconds 
+  Import took 0.016345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.548385 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d058392eeec2d490adc2b1f77eb03a') in 0.011895 seconds 
+  Import took 0.015627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.182517 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2df0c43549d0788606dfcb7495b94eb') in 0.015663 seconds 
+  Import took 0.019240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.601527 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff553a90a1c720469b7a212be43c4a4') in 0.015671 seconds 
+  Import took 0.019253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.535977 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f073dac6e3c20f007b583ef23d3c9ad3') in 0.011596 seconds 
+  Import took 0.014743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.786702 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd6926a28a560778d1ebecc04bfa96b') in 0.013050 seconds 
+  Import took 0.017530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.133793 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219240cea8dab20604c93fb0832eb2f0') in 0.015981 seconds 
+  Import took 0.019897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.153684 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15558c3a4158bac0e775fe93974b2be2') in 0.014807 seconds 
+  Import took 0.018211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.435562 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '357f22ef086e163b3586525c7be601d5') in 0.014019 seconds 
+  Import took 0.017778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.577494 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff8c251cdc619955804643c803823c2') in 0.016340 seconds 
+  Import took 0.020663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.715430 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558f987c9d1e75cbe62ec947654dc455') in 0.017144 seconds 
+  Import took 0.020682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.273500 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ad87f7ec87a9c2f8cb019d0229d3fb') in 0.011636 seconds 
+  Import took 0.015460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.041795 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e65b4798691e19391e24114bed0ac7') in 0.015668 seconds 
+  Import took 0.019279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.646480 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3eed23c2fb1258d87b48f42ccaf4b0d') in 0.014657 seconds 
+  Import took 0.017774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.306439 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa05ff72788b5dc52d6e008d302124f') in 0.011506 seconds 
+  Import took 0.015732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.640234 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070f8f6dc9c4a15d81c9308c9de7bb67') in 0.017923 seconds 
+  Import took 0.021380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.534202 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e86e28c601ff8a506d292475f2a521') in 0.017945 seconds 
+  Import took 0.022084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.327670 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90116f0e4ce82dcd433fa7a4db3e2c8') in 0.014818 seconds 
+  Import took 0.018279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.006125 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a8110d9786600b82f3809deb4a4027') in 0.010752 seconds 
+  Import took 0.014082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.422088 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37ac63534abe720c698fccbb7abccb4') in 0.020060 seconds 
+  Import took 0.024919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.428711 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d9e59a8ba10356ca03bffe8527f881') in 0.016179 seconds 
+  Import took 0.020275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.995153 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72910c38193b3c6d1818b2594140d35e') in 0.011437 seconds 
+  Import took 0.015506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.032046 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfccd350eafeaa9bdf0285340c176759') in 0.010933 seconds 
+  Import took 0.015259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.203085 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390e7c382d33ba9465b799ffd2c25aa9') in 0.013895 seconds 
+  Import took 0.017409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.570600 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22ef000e92dbd615cc936d1b6df6996') in 0.015430 seconds 
+  Import took 0.018937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.561464 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36378c90f87bb2a2602948262f50341') in 0.014774 seconds 
+  Import took 0.019058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.803541 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7fca03410e52288a00a4c7860b74a4') in 0.014364 seconds 
+  Import took 0.017937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.010565 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f141314939ccb58aa427f106f47bcc3') in 0.010699 seconds 
+  Import took 0.014391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.628529 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100d28769ba9713d34a388a94fc3cbf3') in 0.016720 seconds 
+  Import took 0.020275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.171699 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ca003fee33b89efa78613e51c24257') in 0.016279 seconds 
+  Import took 0.019938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.000716 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86de34ad3aa69339f6f385a0307decfe') in 0.014789 seconds 
+  Import took 0.017942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.586375 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f5dd7919c7dbf60469107b4880500f') in 0.015381 seconds 
+  Import took 0.018972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.413435 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7cb08163eb46d1fa98d169dad88c72a') in 0.015563 seconds 
+  Import took 0.019321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.461800 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e10635a64d05400ca6798aa0b48d3f8') in 0.015420 seconds 
+  Import took 0.018679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.773953 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b22c44df53d9f10d5c4d77692106ec') in 0.018871 seconds 
+  Import took 0.022434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.381476 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1c3facf3418168104e772804e55145') in 0.017710 seconds 
+  Import took 0.021361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.412381 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6ca70cd7356951df87cdfaea147926') in 0.017004 seconds 
+  Import took 0.020886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.633699 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e47ba4ef12e48f84945244e2133786f') in 0.016409 seconds 
+  Import took 0.021009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.802701 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de8227fbe53ff3f8491f6436d4f5db3') in 0.014190 seconds 
+  Import took 0.017668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.242677 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f1201d030bb4a1a01540972a24cae5') in 0.012433 seconds 
+  Import took 0.016843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.771782 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c732e87d148f3c4edb37a7f95b57f1') in 0.015537 seconds 
+  Import took 0.019400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.393310 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac628f7e813a57e838afade46fb9bbe3') in 0.016165 seconds 
+  Import took 0.019847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.397225 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6d3447e79ec92de5fb4aab40fb5b21') in 0.016271 seconds 
+  Import took 0.020142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.518297 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1fafb9aa92a693faaa60fb4ed720fd') in 0.016478 seconds 
+  Import took 0.020048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.895941 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6587fbd83093b4da66437679b1a48f66') in 0.011849 seconds 
+  Import took 0.015803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(d5e7463ac0efc8b46baa08f619c085a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(d5e7463ac0efc8b46baa08f619c085a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08816e68687113057dfc3b701d4ef795') in 0.024191 seconds 
+  Import took 0.029336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.071516 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc528ccd69e9bdefbc71c91f34194bf') in 0.014764 seconds 
+  Import took 0.018784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.668331 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27899fb2325f7ca00dcb6c475f2736f7') in 0.323396 seconds 
+  Import took 0.326917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Tree.prefab
+  artifactKey: Guid(bb38dc4c90e4b49448b7fb27b82a3df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree.prefab using Guid(bb38dc4c90e4b49448b7fb27b82a3df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba8b7e2b2409392b853c65d5eea044f') in 0.342029 seconds 
+  Import took 0.345032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.337001 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '472eddf0d5c33d432ce7494404ad561c') in 0.015359 seconds 
+  Import took 0.019075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.409503 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a0d202c77ef5e20dea78d496a7ee62') in 0.011767 seconds 
+  Import took 0.015656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.422148 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ab585a0f78dd10adf83fe087f96b43') in 0.011187 seconds 
+  Import took 0.014669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.780346 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e709b657c0ea103f4ddec599a99249f') in 0.011786 seconds 
+  Import took 0.015909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.421991 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcdbfcb564ad6448567d6056b3f4fdf6') in 0.011368 seconds 
+  Import took 0.014690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.598851 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee172ecf949405c29adfaf9a30662834') in 0.011320 seconds 
+  Import took 0.014902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.867354 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ba9290854621ac2fdfd70b357ccb30') in 0.015724 seconds 
+  Import took 0.020095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.173633 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc685481343563c6703c52196e617536') in 0.013422 seconds 
+  Import took 0.017087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.194927 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244728750d6d0d81e25e20b9aac82a56') in 0.013618 seconds 
+  Import took 0.016953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.592252 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e48b75feb52345e6d5adb86af19851') in 0.013290 seconds 
+  Import took 0.016876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.494494 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004a230186d8281fcfd47395922ee700') in 0.013082 seconds 
+  Import took 0.016686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.183606 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed272e525259c2d9722dc7434f0be153') in 0.013053 seconds 
+  Import took 0.016687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.605266 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38446e4bb55615a0cd3f3a612fda5ae') in 0.011966 seconds 
+  Import took 0.015151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.423163 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4846d9b4b8d2b8616f79542cc9367bee') in 0.012815 seconds 
+  Import took 0.017167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.706062 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c69edaa074bb17967b87ba23a7bec9e') in 0.011855 seconds 
+  Import took 0.015473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.396353 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cbeb6a0ea55e80cc1c6894f6caa99a') in 0.013920 seconds 
+  Import took 0.017556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.403198 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b1e919c94baae90984f11722f82c51') in 0.011101 seconds 
+  Import took 0.014958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.832303 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a439226eb5cdf7fdd9c51a17140141f') in 0.015824 seconds 
+  Import took 0.020101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.363143 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87bc74e63b545ba7cdab537933e6203') in 0.014604 seconds 
+  Import took 0.017952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.384121 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6564f94181a13bb89bedae87cbc17f') in 0.011369 seconds 
+  Import took 0.015439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 128.197747 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb456d8d4e13a2c822d3c39cce810ca1') in 0.014317 seconds 
+  Import took 0.017767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.825494 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e198914c684fc7e5819e6fd7b6ca562') in 0.013049 seconds 
+  Import took 0.016443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.222219 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd7134f8b4527a2f219d4979cb23213') in 0.011993 seconds 
+  Import took 0.016049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.022724 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b4325e3d6227a744cde36d702e03290') in 0.012967 seconds 
+  Import took 0.017046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.629382 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd422836bd1d61e4efee4bd181df48e7') in 0.011694 seconds 
+  Import took 0.016312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.218902 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9b90be076953bafab92a7426035f48') in 0.011527 seconds 
+  Import took 0.015591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.419408 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b409ef3b54f5983b1c3a1d0b3e73dafc') in 0.014551 seconds 
+  Import took 0.019251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.603688 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3909ab5797cea0d53ec859ebcec191e') in 0.010509 seconds 
+  Import took 0.014268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.406667 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6280c69153b2a183f0cb328c61a5d161') in 0.011778 seconds 
+  Import took 0.015412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.686407 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65fb066781e03458f016481ae79ecb1') in 0.012113 seconds 
+  Import took 0.016710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.068764 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea8cfa6f37711379e3dee70269176cd') in 0.010688 seconds 
+  Import took 0.014297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.214389 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0c1622922899a75bf38d08834daf8d') in 0.010946 seconds 
+  Import took 0.014545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.170112 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0c5cd27abfd57bf9e74862044042dc') in 0.013376 seconds 
+  Import took 0.016947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.320672 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67dc7cf4faf82610ca227dbbb2ccba6a') in 0.011363 seconds 
+  Import took 0.014871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.633474 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a40c2811b9a1f41d60da5c2b7a03d3c') in 0.015676 seconds 
+  Import took 0.019244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.264606 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31a0d8524249410fab02a2b892415b2') in 0.016658 seconds 
+  Import took 0.020260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.871587 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba22e2d68c2b6bedd2be3dc6932dfb18') in 0.010792 seconds 
+  Import took 0.014216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.498440 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7253a732f1d6c8160f020c678b23f9b3') in 0.011017 seconds 
+  Import took 0.014198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.404891 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33760052c913770f01eb580cf580b53c') in 0.016440 seconds 
+  Import took 0.020056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 336.019161 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6d9e6998a8a88c43a796a94d65dcfa') in 0.014570 seconds 
+  Import took 0.019132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.867368 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7cf90dcebf29c9f096d2a2a89c8031') in 0.010545 seconds 
+  Import took 0.014290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.122041 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ad47c4efddda609ca6ece77f3f9ec1') in 0.012476 seconds 
+  Import took 0.016657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.173737 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd493be1092b93a0627c5683c5649bb19') in 0.011112 seconds 
+  Import took 0.014907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.412883 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc524fdf71ab058be82914862dff724') in 0.011475 seconds 
+  Import took 0.014794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.346565 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dff606178aad96091dceff8fcdbacaf') in 0.011439 seconds 
+  Import took 0.014887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.425851 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5359d3df1e6c73331ce4621473763808') in 0.013516 seconds 
+  Import took 0.017731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.802048 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3375961cb42d15bb7ea2555784547230') in 0.012254 seconds 
+  Import took 0.016269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.262754 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5825dedc01b282984d727f0bc8e1b6d') in 0.013627 seconds 
+  Import took 0.017083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.029758 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59517ac927ce1c20155cd016f063f33') in 0.011283 seconds 
+  Import took 0.014757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.428823 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fe35f84af7849b7b6c1dcd7c1fd287') in 0.016573 seconds 
+  Import took 0.021307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.989214 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb78b84cbb230da977730ca595ffb9d') in 0.015667 seconds 
+  Import took 0.019300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.555939 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba71108bcfa62624fd9bca242a7bd572') in 0.013542 seconds 
+  Import took 0.018637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.078866 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8ec38aa14baf7d0ad5bf1e5f663c50') in 0.013598 seconds 
+  Import took 0.017810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.297642 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f03062ac901bf5b265be7ed81aea4d1') in 0.011318 seconds 
+  Import took 0.014739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.926658 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c0b8e31a4ed2acd3e0ae6ca00834fa') in 0.011053 seconds 
+  Import took 0.014456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.756934 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e684fb6f80a6b55703ecade1d1f5879') in 0.012187 seconds 
+  Import took 0.015782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.433547 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989b7b5c1c30a9349a4f40d74d298ccd') in 0.012244 seconds 
+  Import took 0.015485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.668973 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150a5b568975aca03bd984c40d3f98f8') in 0.013177 seconds 
+  Import took 0.016928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.126634 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e60269c7fd43fb007dd74258296269b') in 0.013532 seconds 
+  Import took 0.017323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.319789 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22525fe83a7a821556e47ec62e6fc89b') in 0.015057 seconds 
+  Import took 0.018397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.777282 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a69534a795b4449fb86fa8a3cdd457b') in 0.016186 seconds 
+  Import took 0.020323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.247326 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c81e4b7ef8c15910286b949dc1b3a2') in 0.012534 seconds 
+  Import took 0.015957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.630127 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5569869654db69eb8cae7188cef1399') in 0.011287 seconds 
+  Import took 0.014854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.758414 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56ed7232e2dd58bb2bbbbf8a09eabc5') in 0.016124 seconds 
+  Import took 0.019539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.704106 seconds.
+  path: Assets/Magnet.prefab
+  artifactKey: Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Magnet.prefab using Guid(6b98aad3dd7afea49b2b8a5a0d8a3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2150df34114a7ce5ea75676dcae13f01') in 0.011451 seconds 
+  Import took 0.014774 seconds .
+
