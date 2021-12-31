@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 
 public class Move : MonoBehaviour
 {
-    float distance = 19.0f;
+    private float distance = 39.0f;
     void OnMouseDrag()
     {
         //Debug.Log("Drag!");
