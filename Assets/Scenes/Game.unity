@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44300658, g: 0.4921953, b: 0.57192475, a: 1}
+  m_IndirectSpecularColor: {r: 0.44300616, g: 0.49219483, b: 0.57192373, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -208,7 +208,7 @@ MonoBehaviour:
   summon_view: {fileID: 1380223100}
   GameObjects:
   - {fileID: 982498306192245364, guid: f9a89636e877a4244a76b61d2d9031dd, type: 3}
-  - {fileID: 8597435919089589699, guid: c87d1c87f12c38a47a44ccd7422902ee, type: 3}
+  - {fileID: 8105657063433513492, guid: cab162a8c5589c94a8bae35b1e0427a3, type: 3}
   - {fileID: 7482252895730437776, guid: 69d67ed3da68f6c418f681a52d31cf9f, type: 3}
   - {fileID: 3154397125699542893, guid: 4862da7ebe446d444a66b11b5a2e012c, type: 3}
 --- !u!1 &238777779
@@ -1815,7 +1815,7 @@ GameObject:
   - component: {fileID: 1435301652}
   m_Layer: 5
   m_Name: Summons_Button
-  m_TagString: Steel
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

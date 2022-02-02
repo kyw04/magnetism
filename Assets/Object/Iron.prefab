@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -3894809452277512439}
   m_Layer: 0
   m_Name: Iron
-  m_TagString: Untagged
+  m_TagString: Iron
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -126,3 +126,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74ded0e7dcc3fc74491a17e92a487f19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MoveObject: {fileID: 3154397125699542893}

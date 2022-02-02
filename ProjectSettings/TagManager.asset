@@ -6,9 +6,9 @@ TagManager:
   tags:
   - Object
   - Magnet
-  - Steel
   - Copper
   - Paper
+  - Iron
   layers:
   - Default
   - TransparentFX
